@@ -24,6 +24,7 @@ namespace TodoApi.Models
         public virtual DbSet<batteries> batteries { get; set; }
         public virtual DbSet<quotes> quotes { get; set; }
         public virtual DbSet<users> users { get; set; }
+        public virtual DbSet<interventions> interventions { get; set; }
         protected override void OnModelCreating (ModelBuilder modelBuilder) {
 
          modelBuilder.Entity<batteries> (entity => {
@@ -128,6 +129,10 @@ namespace TodoApi.Models
                     .HasForeignKey (d => d.building_id)
                     .HasConstraintName ("fk_rails_51749f8eac");
             });
+
+            modelBuilder.Entity<interventions> ()
+                .ToTable("interventions")
+                .HasKey(x => x.id);
 
             modelBuilder.Entity<buildings> (entity => {
                 entity.ToTable ("buildings");

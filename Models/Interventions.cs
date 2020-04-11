@@ -14,7 +14,7 @@ namespace TodoApi.Models
         public long? building_id  { get; set; }
         public long? battery_id { get; set; }
         public long? column_id { get; set; }
-        public long? elevator_id  { get; set; }
+        public string? elevator_id  { get; set; }
         public long? employee_id { get; set; }
         public DateTime? start_date_interv { get; set; }
         public DateTime? end_date_interv { get; set; }

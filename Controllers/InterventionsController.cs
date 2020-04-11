@@ -82,7 +82,7 @@ namespace TodoApi.Controllers
             }
 
             interv.status = "Completed";
-            interv.start_date_interv = DateTime.Now;
+            interv.end_date_interv = DateTime.Now;
 
             _context.interventions.Update(interv);
             _context.SaveChanges();

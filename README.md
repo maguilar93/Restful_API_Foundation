@@ -36,7 +36,6 @@ You should see a message confirming that the change has been done.
     Select:  Body
                 Raw
                 JSON application
-    In the text field, enter:
 
 You should see a message confirming that the change has been done.
     

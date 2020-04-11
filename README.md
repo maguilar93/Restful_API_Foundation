@@ -4,6 +4,7 @@
 OdysseyConsolidation Week
 
 Rocket Elevators New REST API for Consolidation Project
+API URL: https://rockelevapi.azurewebsites.net/api
 
 How to answer the 3 requests in Postman :
 

@@ -10132,11 +10132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/root/Rocket_Elevators_Restful_API_Copie/TodoApi.csproj",
+      "projectUniqueName": "/root/Restful_API_Foundation/TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "/root/Rocket_Elevators_Restful_API_Copie/TodoApi.csproj",
+      "projectPath": "/root/Restful_API_Foundation/TodoApi.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/root/Rocket_Elevators_Restful_API_Copie/obj/",
+      "outputPath": "/root/Restful_API_Foundation/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
